@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Better-TypeRacer",
+  "version": "1.0",
+  "description": "Custom ui for TypeRacer.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://play.typeracer.com/*", "*://www.typeracer.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    }
+  ],
+  "host_permissions": [
+    "*://play.typeracer.com/*",
+    "*://www.typeracer.com/*"
+  ]
+}
