@@ -973,7 +973,7 @@
                 </div>
 
                 <div class="tr-toggle">
-                    <span>Scorebord tonen</span>
+                    <span>Show scoreboard</span>
                     <input type="checkbox" id="tr-showScoreboard">
                 </div>
 
