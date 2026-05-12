@@ -1,10 +1,10 @@
 (() => {
     "use strict";
 
-    if (window.__typeracerUltraV6) return;
-    window.__typeracerUltraV6 = true;
+    if (window.__betterTypeRacer) return;
+    window.__betterTypeRacer = true;
 
-    const STORAGE_KEY = "trUltraV6Settings";
+    const STORAGE_KEY = "typeracersettings";
 
     const DEFAULTS = {
         hideOpponents: true,
@@ -1246,7 +1246,7 @@
             updateProgressBar();
         }, 250);
 
-        console.log("TypeRacer Ultra V6 loaded");
+        console.log("better-TypeRacer Loaded!");
     }
 
     if (document.readyState === "loading") {
